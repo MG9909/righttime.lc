@@ -1,0 +1,466 @@
+body{
+	max-width: 100%;
+
+	}
+
+.navbar{
+	background-color: rgba(186,222,178,0.75);
+	padding-top:8px;
+	height: 40px;
+	margin-bottom: 0;
+
+}
+.nav .navbar-nav ul{
+	height: 40px;
+}
+.navbar-fixed-top{
+	border-width: 0 0 0;
+	height: 40px;
+}
+
+.nav-list{
+	color: rgb(90, 98, 87);
+}
+.navbar-nav li>a{
+	padding: 5px 20px;
+}
+.nav li>a:hover{
+	background-color: rgba(7, 226, 64, 0.64);
+	color: white;
+}
+.progress-container {
+  width: 100%;
+  height: 4px;
+  background-color: rgba(186,222,178,0.75);
+  margin: 0;
+  margin-top: -20px;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 4px;
+  background: #4caf50;
+  width: 0%;
+}
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+
+.skill-box{
+	background-color: rgba(226,20,39,0.12);
+	margin: 5px;
+  width: 400px; 
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding: 5px; /* Add some padding */
+    color: white; /* White text color */
+}
+
+.html {
+  height: 40px;
+	width: 0px;
+  max-width: 400px; 
+	background-color: #4CAF50;
+	} /* Green */
+
+.header{
+	text-align: center;
+	padding: 10px;
+}
+
+.txt{
+	padding: 0 200px;
+	text-align: center;
+	color: rgba(173, 173, 173);
+}
+
+.main-header{
+	flex: 0 1 auto;
+}
+
+.main-content{
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	margin: 0 150px;
+	
+}
+
+.thumbnail-list{
+	flex: 0 1 auto;
+	order: 2;
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+	padding: 10px 0;
+
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+.thumbnail-item{
+	display: inline-block;
+	min-width: 350px;
+	max-width: 450px;
+	border: 1px solid rgb(100%, 100%, 100%);
+	border: 1px solid rgba(100%, 100%, 100%, 0.8);
+	list-style-type: none;
+	transition: transform 133ms ease-in-out; 
+	
+}
+
+.shadow{
+	width: 300px;
+	box-shadow: 0 3px 5px -1px rgba(6, 6, 6, 0.6);
+}
+.thumbnail-text{
+	padding: 10px;
+	color: rgba(132, 49, 33);
+	font-family: cursive;
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+}
+
+.thumbnail-count1{
+	text-align: center;
+	
+}
+
+.count{
+	font-size: 12px;
+	color: rgba(173, 173, 173);
+	text-align: center;
+	display: block;
+}
+
+.footer-wrap{
+	padding-top: 50px;
+	margin-top: 20px;
+	height: 300px;
+	background-color: rgba(12, 92, 12, 1);
+}
+.footer{
+	height: 100px;
+	background-color: rgba(6, 43, 6, 1);
+	box-shadow: inset 0px 10px 16px rgba(6, 6, 6, 0.6);
+}
+.footer-text{
+	color: rgba(173, 173, 173);
+}
+
+.footer-nav{
+	background-color: rgba(6,43,6,0.43);
+	width: 70%;
+	padding: 10px
+	
+}
+
+.question{
+	margin: 10px 0	;
+	background-image: url(../images/ring5.jpg);
+	text-align: center;
+	width: 300px;
+	height: 75px;
+	font-family: verdana;
+	font-size: 24px;
+	color: white;
+	padding: 20px 30px;
+	box-shadow: 1px 0px 16px 2px rgba(6, 6, 6, 0.6);
+}
+
+.answer{
+	color: white;
+}
+.answer :hover{
+	display: block;
+	background-color: rgba(255,255,255,0.3);
+	text-decoration: none;
+	color: black;
+}
+
+.user{
+	
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 500px;
+	font-family: cursive;
+	font-size: 24px;
+}
+.user li{
+	list-style-type: none;
+
+}
+
+.user li>button{
+	background-color: rgba(255,2,2,0.6);
+}
+
+
+.jaziw{
+	margin-left: 100px;
+	margin-top: 190px;
+	font-family: verdana;
+	font-weight: lighter;
+	font-size: 32px;
+	color: black;
+}
+.btn{
+	font-family: verdana;
+	background-color: #0000006b;
+	font-weight: 700;
+	color: white;
+}
+.form-control{
+	background-color: #0000006b;
+	color: white;
+	font-family: verdana;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: #d9edf7;
+	text-decoration: none;
+}
+
+.img{
+	border: 2px solid black;
+}
+
+.val_error{
+	color: white;
+}
+/* width */
+.custom-scrollbar ::-webkit-scrollbar{
+		width: 2px;
+		height: 5px;
+}
+/* Track */
+.custom-scrollbar ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 2px;
+}
+ 
+/* Handle */
+.custom-scrollbar ::-webkit-scrollbar-thumb {
+    background: green; 
+    border-radius: 32px;
+
+}
+
+/* Handle on hover */
+.custom-scrollbar ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+
+
+.search-form .form-group {
+  margin-top: o;
+  float: left !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+  color: rgba(14,181,96,0.93);
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  font-family: verdana;
+  background-color: #067c63;
+  color: white;
+  padding: 15px 15px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 180px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 8px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  border: none;
+  background: rgba(186,222,178,0.75);
+  resize: none;
+  min-height: 100px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #eaeaea;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  font-size: 12px;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom:10px;
+  margin-left: 20%;
+  width: 60px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgba(14,14,14,0.75);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.wrap {
+  margin: 10px 100px;
+  overflow: hidden;
+  left: 50%;
+  top: 20%;
+}
+
+.log {
+  color: #DDD;
+  margin-top: 20%;
+  padding: 0 5px;
+  opacity: .3;
+  transition: all 250ms;
+  text-align: center;
+  display: none;
+  background-color: black;
+}
+
+.radio-group {
+  width: 250px;
+  display: table;
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: separate;
+
+}
+
+.radio-group__label {
+  display: table-cell;
+  height: 28px;
+  padding: 5px;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  border: 1px solid #4F5167;
+  border-style: solid none solid solid;
+  border-radius: 5px 0 0 5px;
+  color: #4F5167;
+  -moz-transition: border 250ms, color 250ms;
+  -o-transition: border 250ms, color 250ms;
+  -webkit-transition: border 250ms, color 250ms;
+  transition: border 250ms, color 250ms;
+  cursor: pointer;
+   box-shadow: inset 0px -2px 0px 1px rgba(169, 139, 139, 0.6);
+}
+
+.radio-group__label + input + .radio-group__label {
+  border-radius: 0 5px 5px 0;
+  border-style: solid solid solid none;
+}
+
+
+.radio-group__label + input:checked + .radio-group__label:before {
+  display: block;
+  border-radius: 0 5px 5px 0;
+  transform: translate3d(-6px, 0, 0);
+}
+
+.radio-group__option:checked + label {
+   background-color: rgba(186,222,178,0.75);
+   color: #389E29;
+  
+   box-shadow: 10px;
+
+ }
+
+
+.radio-group__option {
+
+  display: none;
+}
+
+.tablinks{
+  background: none;
+  border: none;
+  padding: 0;
+}
